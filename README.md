@@ -17,4 +17,6 @@ https://github.com/gravesreid/ORB_SLAM3.git
 # Milestones
 - [ ] Project Proposal (25 October 2024)
 - [ ] Project Midterm (15 November 2024)
+- [ ] Presentation Slides (02 December 2024)
+- [ ] Final Report (11 December 2024)
 
