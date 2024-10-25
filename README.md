@@ -12,4 +12,9 @@ https://github.com/gravesreid/ORB_SLAM3.git
     - [ ] Physical testing on robots 
 - [ ] Jazzy Branch
     - [ ] Simple test using camera only
-    - [ ] Physical testing on robots 
+    - [ ] Physical testing on robots
+
+# Milestones
+- [ ] Project Proposal (25 October 2024)
+- [ ] Project Midterm (15 November 2024)
+
