@@ -4,13 +4,13 @@ Forked ORB-SLAM3 repository here:
 https://github.com/gravesreid/ORB_SLAM3.git
 
 # TODO
-- [ ] Noetic Branch
+- [ ] Noetic and Foxy Branch and Ubuntu 20.04- Kanlong (Noetic) and Adrian (Foxy)
     - [ ] Simple test using camera only
     - [ ] Physical testing on robots 
-- [ ] Humble Branch
+- [ ] Humble Branch-  Benny
     - [ ] Simple test using camera only
     - [ ] Physical testing on robots 
-- [ ] Jazzy Branch
+- [ ] Jazzy Branch- Reid
     - [ ] Simple test using camera only
     - [ ] Physical testing on robots
 
