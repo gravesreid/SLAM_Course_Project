@@ -40,7 +40,7 @@ docker pull gravesreid/orbslam3:latest
 ```
 3. Change display permissions for docker
 ```bash
-xhost -local:docker
+xhost +local:docker
 ```
 
 4. Run container
