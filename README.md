@@ -3,6 +3,9 @@
 Forked ORB-SLAM3 repository here:
 https://github.com/gravesreid/ORB_SLAM3.git
 
+Docker image based on: 
+https://github.com/jahaniam/orbslam3_docker.git
+
 # Requirements
 ## Raspberry pi:
 - Raspberry pi Bookworm OS
