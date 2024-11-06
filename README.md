@@ -66,7 +66,7 @@ If first time:
 chmod +x build.sh
 ```
 ```
-.build.sh
+./build.sh
 ```
 7. Run the url video feed script:
 ```bash
