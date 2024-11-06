@@ -38,7 +38,12 @@ newgrp docker
 ```bash
 docker pull gravesreid/orbslam3:latest
 ```
-3. Run container
+3. Change display permissions for docker
+```bash
+xhost -local:docker
+```
+
+4. Run container
 ```bash
 docker run -it \
   -e DISPLAY=$DISPLAY \
@@ -46,7 +51,7 @@ docker run -it \
   --name orbslam3_new \
   gravesreid/orbslam3
 ```
-4. Run mjpeg_server.py on your raspberry pi:
+5. Run mjpeg_server.py on your raspberry pi:
 - on raspberry pi:
 ```bash
 ifconfig
@@ -56,8 +61,8 @@ This is how you get the ip address for your pi
 ```bash
 ssh pi@<your-pi-ip-address>
 ```
-5. In the docker container, change the web video url address in ORB_SLAM3/Examples/Monocular/mono_url_video.cc to include the correct ip address 
-6. Build ORB_SLAM3 in the docker container:
+6. In the docker container, change the web video url address in ORB_SLAM3/Examples/Monocular/mono_url_video.cc to include the correct ip address 
+7. Build ORB_SLAM3 in the docker container:
 ```bash
 cd /ORB_SLAM3
 ```
@@ -68,7 +73,7 @@ chmod +x build.sh
 ```
 ./build.sh
 ```
-7. Run the url video feed script:
+8. Run the url video feed script:
 ```bash
 ./Examples/Monocular/mono_url_video Vocabulary/ORBvoc.txt ./Examples/Monocular/picamera.yaml 
 ```
