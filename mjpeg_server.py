@@ -84,9 +84,12 @@ class StreamingServer(socketserver.ThreadingMixIn, server.HTTPServer):
 
 
 picam2 = Picamera2()
-picam2.configure(picam2.create_video_configuration(main={"size": (640, 480)}))
 output = StreamingOutput()
-picam2.start_recording(JpegEncoder(), FileOutput(output))
+
+video_config = picam2.create_video_configuration(main={"size": (320,240)}, buffer_count=1)
+video_config["queue"] = False
+picam2.configure(video_config)
+picam2.start_recording(JpegEncoder(q=50), FileOutput(output))
 
 try:
     address = ('', 8000)
