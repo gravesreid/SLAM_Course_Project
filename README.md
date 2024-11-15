@@ -75,7 +75,17 @@ chmod +x build.sh
 ```
 8. Run the url video feed script:
 ```bash
-./Examples/Monocular/mono_url_video Vocabulary/ORBvoc.txt ./Examples/Monocular/picamera.yaml 
+./Examples/Monocular/mono_url_video Vocabulary/ORBvoc.txt ./Examples/Monocular/picamera.yaml
+```
+
+# Run ROS2 node
+1. Go to ros2_ws:
+```bash
+cd Examples/Monocular/ros2_ws
+```
+2. Run the node:
+```bash
+ros2 run orb_slam3_ros2 MonoNode /ORB_SLAM3/Vocabulary/ORBvoc.txt /ORB_SLAM3/Examples/Monocular/picamera.yaml http://192.168.1.20:8000/stream.mjpg
 ```
 
 ## If you make changes to the code in your container and want to save the new docker container:
