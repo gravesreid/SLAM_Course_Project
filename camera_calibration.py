@@ -3,8 +3,8 @@ import numpy as np
 import glob
 
 # Set the size of the checkerboard pattern
-checkerboard_size = (8, 5)  # (number of inner corners per row, number of inner corners per column)
-square_size = 27.5 / 1000  # size of a square in meters (27.5 mm)
+checkerboard_size = (8, 6)  # (number of inner corners per row, number of inner corners per column)
+square_size = 23 / 1000  # size of a square in meters (23 mm)
 
 # Define the world coordinates for 3D points
 objp = np.zeros((checkerboard_size[0] * checkerboard_size[1], 3), np.float32)
@@ -16,7 +16,7 @@ objpoints = []  # 3D points in real world space
 imgpoints = []  # 2D points in image plane
 
 # Read all images for calibration (supports .jpg and .png)
-image_files = glob.glob('/home/reid/Projects/Bittle/Bittle_LLM/31OCT24_photos/*.png')
+image_files = glob.glob('/home/reid/Projects/bittle/camera_calibration/23NOV2024/*.png')
 
 if len(image_files) == 0:
     print("No calibration images found.")

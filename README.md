@@ -48,7 +48,6 @@ xhost +local:docker
 docker run -it \
   -e DISPLAY=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  --name orbslam3_new \
   gravesreid/orbslam3
 ```
 5. Run mjpeg_server.py on your raspberry pi:
