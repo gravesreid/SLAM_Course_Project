@@ -35,6 +35,11 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 2. Pull the container
+ROS2 Version:
+```bash
+docker pull gravesreid/orbslam3_foxy:latest
+```
+Original Version:
 ```bash
 docker pull gravesreid/orbslam3:latest
 ```
