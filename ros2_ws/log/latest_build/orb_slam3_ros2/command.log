@@ -1,0 +1,4 @@
+Invoking command in '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2': /usr/bin/cmake --build /ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2 -- -j28 -l28
+Invoked command in '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2' returned '0': /usr/bin/cmake --build /ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2 -- -j28 -l28
+Invoking command in '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2': /usr/bin/cmake --install /ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2
+Invoked command in '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2' returned '0': /usr/bin/cmake --install /ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2

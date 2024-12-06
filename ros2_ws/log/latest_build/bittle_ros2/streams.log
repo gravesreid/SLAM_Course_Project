@@ -1,0 +1,49 @@
+[0.364s] Invoking command in '/ORB_SLAM3/Examples/ros2_ws/src/bittle_ros2': PYTHONPATH=/ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bittle_ros2 build --build-base /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build install --record /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/install.log --single-version-externally-managed install_data
+[0.467s] running egg_info
+[0.467s] writing ../../build/bittle_ros2/bittle_ros2.egg-info/PKG-INFO
+[0.467s] writing dependency_links to ../../build/bittle_ros2/bittle_ros2.egg-info/dependency_links.txt
+[0.468s] writing entry points to ../../build/bittle_ros2/bittle_ros2.egg-info/entry_points.txt
+[0.468s] writing requirements to ../../build/bittle_ros2/bittle_ros2.egg-info/requires.txt
+[0.468s] writing top-level names to ../../build/bittle_ros2/bittle_ros2.egg-info/top_level.txt
+[0.502s] reading manifest file '../../build/bittle_ros2/bittle_ros2.egg-info/SOURCES.txt'
+[0.503s] writing manifest file '../../build/bittle_ros2/bittle_ros2.egg-info/SOURCES.txt'
+[0.503s] running build
+[0.503s] running build_py
+[0.504s] copying bittle_ros2/pose_visualizer.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+[0.504s] running install
+[0.505s] running install_lib
+[0.506s] copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/pose_visualizer.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+[0.506s] byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/pose_visualizer.py to pose_visualizer.cpython-38.pyc
+[0.507s] running install_data
+[0.508s] copying bittle_ros2/pose_visualizer.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+[0.508s] running install_egg_info
+[0.509s] removing '/ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2-0.0.0-py3.8.egg-info' (and everything under it)
+[0.509s] Copying ../../build/bittle_ros2/bittle_ros2.egg-info to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2-0.0.0-py3.8.egg-info
+[0.510s] running install_scripts
+[0.520s] Installing bittle_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.520s] Installing command_publisher script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing demo_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing experiment_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing experiment_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing gpt_client script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing gpt_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing image_save_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing joystick_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing latency_test script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing move_to_grid_server script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.521s] Installing object_detection_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing object_detection_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing object_detection_to_command script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing photo_client script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing photo_service script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing pi_servo_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing pose_visualizer script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing robot_object_detection_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing robot_to_grid_node script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing serial_sender script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing video_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing webvid_publisher script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing webvid_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] Installing yolo_node script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+[0.522s] writing list of installed files to '/ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/install.log'
+[0.534s] Invoked command in '/ORB_SLAM3/Examples/ros2_ws/src/bittle_ros2' returned '0': PYTHONPATH=/ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bittle_ros2 build --build-base /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build install --record /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/install.log --single-version-externally-managed install_data

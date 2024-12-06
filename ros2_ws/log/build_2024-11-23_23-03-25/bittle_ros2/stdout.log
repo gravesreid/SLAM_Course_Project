@@ -1,0 +1,173 @@
+running egg_info
+creating ../../build/bittle_ros2/bittle_ros2.egg-info
+writing ../../build/bittle_ros2/bittle_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/bittle_ros2/bittle_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/bittle_ros2/bittle_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/bittle_ros2/bittle_ros2.egg-info/requires.txt
+writing top-level names to ../../build/bittle_ros2/bittle_ros2.egg-info/top_level.txt
+writing manifest file '../../build/bittle_ros2/bittle_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/bittle_ros2/bittle_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/bittle_ros2/bittle_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build
+creating /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib
+creating /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/experiment_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/photo_service.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/bittle_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/command_publisher.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/photo_client.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/experiment_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/webvid_publisher.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/yolo_node.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/demo_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/__init__.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/gpt_client.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/move_to_grid_server.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/object_detection_to_command_v1.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/joystick_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/object_detection_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/gpt_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/latency_test.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/object_detection_to_command.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/pi_servo_driver.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/pose_visualizer.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/video_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/webvid_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/robot_object_detection_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/object_detection_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/image_save_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/serial_sender.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+copying bittle_ros2/robot_to_grid_node.py -> /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2
+running install
+running install_lib
+creating /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/experiment_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/photo_service.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/bittle_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/command_publisher.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/photo_client.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/experiment_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/webvid_publisher.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/yolo_node.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/demo_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/__init__.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/gpt_client.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/move_to_grid_server.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/object_detection_to_command_v1.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/joystick_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/object_detection_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/gpt_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/latency_test.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/object_detection_to_command.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/pi_servo_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/pose_visualizer.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/video_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/webvid_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/robot_object_detection_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/object_detection_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/image_save_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/serial_sender.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+copying /ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/build/lib/bittle_ros2/robot_to_grid_node.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/experiment_driver.py to experiment_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/photo_service.py to photo_service.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/bittle_driver.py to bittle_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/command_publisher.py to command_publisher.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/photo_client.py to photo_client.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/experiment_subscriber.py to experiment_subscriber.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/webvid_publisher.py to webvid_publisher.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/yolo_node.py to yolo_node.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/demo_driver.py to demo_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/gpt_client.py to gpt_client.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/move_to_grid_server.py to move_to_grid_server.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/object_detection_to_command_v1.py to object_detection_to_command_v1.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/joystick_driver.py to joystick_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/object_detection_driver.py to object_detection_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/gpt_driver.py to gpt_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/latency_test.py to latency_test.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/object_detection_to_command.py to object_detection_to_command.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/pi_servo_driver.py to pi_servo_driver.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/pose_visualizer.py to pose_visualizer.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/video_subscriber.py to video_subscriber.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/webvid_subscriber.py to webvid_subscriber.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/robot_object_detection_subscriber.py to robot_object_detection_subscriber.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/object_detection_subscriber.py to object_detection_subscriber.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/image_save_subscriber.py to image_save_subscriber.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/serial_sender.py to serial_sender.cpython-38.pyc
+byte-compiling /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2/robot_to_grid_node.py to robot_to_grid_node.cpython-38.pyc
+running install_data
+creating /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/ament_index
+creating /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/ament_index/resource_index
+creating /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/ament_index/resource_index/packages
+copying resource/bittle_ros2 -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/bittle_teleop_server_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/server_object_detection_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/server_save_photos_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/robot_experiment_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/demo_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/lone_robot_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/robot_joystic_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/server_joystick_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/gpt_robot_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/bittle_teleop_robot_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/robot_object_detection_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying launch/latency_test_launch.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/experiment_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/photo_service.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/bittle_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/command_publisher.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/photo_client.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/experiment_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/webvid_publisher.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/yolo_node.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/demo_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/__init__.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/gpt_client.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/move_to_grid_server.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/object_detection_to_command_v1.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/joystick_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/object_detection_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/gpt_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/latency_test.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/object_detection_to_command.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/pi_servo_driver.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/pose_visualizer.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/video_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/webvid_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/robot_object_detection_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/object_detection_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/image_save_subscriber.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/serial_sender.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+copying bittle_ros2/robot_to_grid_node.py -> /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/share/bittle_ros2
+running install_egg_info
+Copying ../../build/bittle_ros2/bittle_ros2.egg-info to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/python3.8/site-packages/bittle_ros2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing bittle_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing command_publisher script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing demo_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing experiment_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing experiment_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing gpt_client script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing gpt_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing image_save_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing joystick_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing latency_test script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing move_to_grid_server script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing object_detection_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing object_detection_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing object_detection_to_command script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing path_visualizer script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing photo_client script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing photo_service script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing pi_servo_driver script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing robot_object_detection_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing robot_to_grid_node script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing serial_sender script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing video_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing webvid_publisher script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing webvid_subscriber script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+Installing yolo_node script to /ORB_SLAM3/Examples/ros2_ws/install/bittle_ros2/lib/bittle_ros2
+writing list of installed files to '/ORB_SLAM3/Examples/ros2_ws/build/bittle_ros2/install.log'

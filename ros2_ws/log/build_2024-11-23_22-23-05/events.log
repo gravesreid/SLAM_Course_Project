@@ -1,0 +1,724 @@
+[0.000000] (-) TimerEvent: {}
+[0.000382] (orb_slam3_ros2) JobQueued: {'identifier': 'orb_slam3_ros2', 'dependencies': OrderedDict()}
+[0.000744] (orb_slam3_ros2) JobStarted: {'identifier': 'orb_slam3_ros2'}
+[0.007893] (orb_slam3_ros2) JobProgress: {'identifier': 'orb_slam3_ros2', 'progress': 'cmake'}
+[0.008074] (orb_slam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2', '-DCMAKE_INSTALL_PREFIX=/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2'], 'cwd': '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'b1fc5be248b7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-67cbc8ab-3f2f-4163-80ee-78ee35cf7ea2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('ROS_IP', '127.0.0.1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/install:/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b61aa525-01dc-48be-9139-f37c1693f720.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b61aa525-01dc-48be-9139-f37c1693f720.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8fb4ee5727.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b61aa525-01dc-48be-9139-f37c1693f720.sock'), ('AMENT_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2:/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2:/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2:/opt/ros/foxy')]), 'shell': False}
+[0.054879] (orb_slam3_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.097091] (orb_slam3_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.100033] (-) TimerEvent: {}
+[0.100329] (orb_slam3_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.162671] (orb_slam3_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.163309] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200141] (-) TimerEvent: {}
+[0.214692] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.223100] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.223326] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.225128] (orb_slam3_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.278846] (orb_slam3_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.279638] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300245] (-) TimerEvent: {}
+[0.343610] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.352324] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.352582] (orb_slam3_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.354091] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.372487] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.372622] (orb_slam3_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400321] (-) TimerEvent: {}
+[0.500537] (-) TimerEvent: {}
+[0.508622] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.542002] (orb_slam3_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.546333] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600625] (-) TimerEvent: {}
+[0.610228] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.638294] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.700725] (-) TimerEvent: {}
+[0.704523] (orb_slam3_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.742464] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.743385] (orb_slam3_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.744111] (orb_slam3_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.793565] (orb_slam3_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.793753] (orb_slam3_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800874] (-) TimerEvent: {}
+[0.859327] (orb_slam3_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.859489] (orb_slam3_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.901098] (-) TimerEvent: {}
+[0.901564] (orb_slam3_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.901791] (orb_slam3_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.966080] (orb_slam3_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.966995] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001203] (-) TimerEvent: {}
+[1.073065] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.101323] (-) TimerEvent: {}
+[1.159914] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.180065] (orb_slam3_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.201466] (-) TimerEvent: {}
+[1.282934] (orb_slam3_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.297560] (orb_slam3_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.298439] (orb_slam3_ros2) StdoutLine: {'line': b'-- Build files have been written to: /ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2\n'}
+[1.301519] (-) TimerEvent: {}
+[1.304761] (orb_slam3_ros2) CommandEnded: {'returncode': 0}
+[1.305340] (orb_slam3_ros2) JobProgress: {'identifier': 'orb_slam3_ros2', 'progress': 'build'}
+[1.306174] (orb_slam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2', '--', '-j28', '-l28'], 'cwd': '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'b1fc5be248b7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-67cbc8ab-3f2f-4163-80ee-78ee35cf7ea2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('ROS_IP', '127.0.0.1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/install:/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b61aa525-01dc-48be-9139-f37c1693f720.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b61aa525-01dc-48be-9139-f37c1693f720.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8fb4ee5727.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b61aa525-01dc-48be-9139-f37c1693f720.sock'), ('AMENT_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2:/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2:/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2:/opt/ros/foxy')]), 'shell': False}
+[1.335514] (orb_slam3_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target MonoNode\x1b[0m\n'}
+[1.398055] (orb_slam3_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/MonoNode.dir/src/ros2_mono.cpp.o\x1b[0m\n'}
+[1.401603] (-) TimerEvent: {}
+[1.501866] (-) TimerEvent: {}
+[1.602126] (-) TimerEvent: {}
+[1.702450] (-) TimerEvent: {}
+[1.802750] (-) TimerEvent: {}
+[1.903106] (-) TimerEvent: {}
+[2.003401] (-) TimerEvent: {}
+[2.103692] (-) TimerEvent: {}
+[2.203982] (-) TimerEvent: {}
+[2.304361] (-) TimerEvent: {}
+[2.404756] (-) TimerEvent: {}
+[2.505156] (-) TimerEvent: {}
+[2.605495] (-) TimerEvent: {}
+[2.705834] (-) TimerEvent: {}
+[2.806142] (-) TimerEvent: {}
+[2.906472] (-) TimerEvent: {}
+[3.006741] (-) TimerEvent: {}
+[3.106995] (-) TimerEvent: {}
+[3.207243] (-) TimerEvent: {}
+[3.307488] (-) TimerEvent: {}
+[3.407784] (-) TimerEvent: {}
+[3.508076] (-) TimerEvent: {}
+[3.608375] (-) TimerEvent: {}
+[3.708738] (-) TimerEvent: {}
+[3.809152] (-) TimerEvent: {}
+[3.909530] (-) TimerEvent: {}
+[4.009912] (-) TimerEvent: {}
+[4.056832] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:30\x1b[m\x1b[K,\n'}
+[4.057064] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.057146] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.057218] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.057288] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.057355] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.057428] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.057499] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.057566] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.057634] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.057706] (orb_slam3_ros2) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[4.057773] (orb_slam3_ros2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.108153] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.108319] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.108383] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.108430] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.108476] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.108520] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.108563] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.108605] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.108645] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.108686] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.108728] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[4.108770] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.108815] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.108858] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.108902] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.108944] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.108984] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.109024] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.109064] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.109104] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.109143] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.109183] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.109222] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.109264] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.109303] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.109342] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.109383] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.109422] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.109462] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.109501] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.109959] (-) TimerEvent: {}
+[4.122616] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.123102] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.123154] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.123200] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.123245] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.123289] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.123332] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.123375] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.123425] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.123468] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.123511] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.123556] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.123598] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.123639] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.123681] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.123722] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.123764] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.123805] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.123846] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.123886] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.123926] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.123966] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.124006] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.124046] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.124086] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.124126] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.124165] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.124205] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.124244] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124282] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.124326] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.124367] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.124405] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.124444] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.124483] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.124522] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.124561] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.124600] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.124639] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.124678] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.124719] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.124762] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.124802] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.124842] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.124884] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.124925] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.124970] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.125016] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.125059] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.125100] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.125142] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.125183] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.125223] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.125267] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.125309] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.125350] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.125392] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.125433] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.210156] (-) TimerEvent: {}
+[4.310588] (-) TimerEvent: {}
+[4.334559] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.334760] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.334823] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.334870] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.334916] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.334959] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.335010] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.335053] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.335096] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.335136] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.335177] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.335220] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[4.335261] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.335304] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.335345] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.335386] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.335426] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.335468] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.335508] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.335547] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.335585] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.335625] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.335664] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.335704] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.335743] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.335784] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.335823] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.335863] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.335902] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.335942] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.335982] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.351081] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.351275] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.351346] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.351410] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.351472] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.351534] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.351596] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.351656] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.351717] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.351792] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.351854] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.351916] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[4.351978] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.352047] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.352109] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.352171] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.352233] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.352295] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.352358] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.352420] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.352482] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.352544] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.352605] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.352665] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.352725] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.352785] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.352845] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.352905] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.352965] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.353025] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.353085] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.366783] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.366893] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.366965] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.367031] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.367096] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.367159] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.367222] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.367284] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.367347] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.367409] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.367471] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.367535] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[4.367601] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.367665] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.367728] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.367790] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.367852] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.367913] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.367974] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.368035] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.368099] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.368161] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.368222] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.368287] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.368349] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.368411] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.368472] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.368534] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.368595] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.368657] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.368719] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.368780] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.368841] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.368903] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.368965] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.369027] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.369091] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.369153] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.369214] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.369276] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.369337] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.369399] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.369461] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.369524] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.369585] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.369653] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.369715] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.369776] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.369838] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.369899] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.369961] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.370023] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.370084] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.370147] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.370208] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.370270] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.370335] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.370404] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.370467] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.370529] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.404063] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.404228] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.404297] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.404360] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.404422] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.404482] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.404542] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.404601] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.404661] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.404730] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.404790] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.404851] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[4.404916] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.404977] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.405038] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.405097] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.405157] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.405216] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.405276] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.405339] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.405399] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.405458] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.405518] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.405576] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.405635] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.405695] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.405753] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.405812] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.405872] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.405931] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.405991] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.410650] (-) TimerEvent: {}
+[4.411350] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.411442] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.411516] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.411580] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.411643] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.411703] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.411763] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.411823] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.411882] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.411941] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.412000] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.412060] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.412120] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.412179] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.412238] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.412297] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.412357] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.412417] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.412479] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.412537] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.412596] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.412655] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.412720] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.412780] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.412839] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.412898] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.412957] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.413016] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.413075] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.442156] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.442337] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.442412] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.442476] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.442538] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.442598] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.442657] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.442716] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.442776] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.442836] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.442907] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.442971] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[4.443032] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.443094] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.443157] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.443222] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.443283] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.443344] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.443405] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.443465] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.443526] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.443586] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.443647] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.443708] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.443768] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.443832] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.443892] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.443957] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.444018] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.444079] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.444140] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.444201] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.444261] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.444321] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.444381] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.444441] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.444501] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.444561] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.444625] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.444684] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.444743] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.444801] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.444861] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.444921] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.444983] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.445042] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.445101] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.445159] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.445218] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.445277] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.445336] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.445395] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.445453] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.445512] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.445570] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.445629] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.445687] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.445746] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.445805] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.445864] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.510764] (-) TimerEvent: {}
+[4.553458] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.553676] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.553750] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.553823] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.553892] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.553957] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.554020] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.554082] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.554144] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.554206] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.554268] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.554330] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[4.554449] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.554558] (orb_slam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.554608] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.554652] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.554695] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.554737] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.554778] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.554818] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.554858] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.554899] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.554940] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.554989] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.555029] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.555068] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.555108] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.555148] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.555188] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.555228] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.555268] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.571371] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.571612] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.571680] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.571797] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.571923] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.571990] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.572049] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.572106] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.572164] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.572219] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.572276] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.572336] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[4.572394] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.572451] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.572510] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.572565] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.572620] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.572675] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.572730] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.572782] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.572835] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.572887] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.572939] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.572989] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.573040] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.573091] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.573141] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.573192] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.573245] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.573296] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.573346] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.573397] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.573448] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.573500] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.573551] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.573602] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.573654] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.573703] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.573755] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.573803] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.573852] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.573901] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.573952] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.574004] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.574054] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.574103] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.574152] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.574201] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.574249] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.574298] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.574346] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.574406] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.574457] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.574507] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.574561] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.574613] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.574665] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.574716] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.574767] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.574818] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.595659] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.595818] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.595873] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.595920] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.595963] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.596012] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.596053] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.596092] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.596133] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.596172] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.596212] (orb_slam3_ros2) StderrLine: {'line': b'/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.596257] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[4.596297] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.596338] (orb_slam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.596379] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.596418] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.596457] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.596495] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.596534] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.596572] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.596610] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.596650] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.596689] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.596727] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.596764] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.596802] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.596840] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.596877] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.596915] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.596953] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.596992] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.603267] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.603370] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.603419] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.603462] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.603504] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.603545] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.603585] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.603625] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.603664] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.603703] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.603749] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.603791] (orb_slam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.603832] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.603877] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:363\x1b[m\x1b[K,\n'}
+[4.603916] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.603954] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.603993] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.604031] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.604069] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.604106] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.604144] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.604181] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.604219] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.604256] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.604293] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.604330] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.604368] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:162:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.604406] (orb_slam3_ros2) StderrLine: {'line': b'  162 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.604443] (orb_slam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.610820] (-) TimerEvent: {}
+[4.711013] (-) TimerEvent: {}
+[4.811296] (-) TimerEvent: {}
+[4.892470] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[4.892911] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[4.892975] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.893021] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.893063] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.893105] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.893146] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.893198] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.893239] (orb_slam3_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[4.893277] (orb_slam3_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.893316] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:145:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  base \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::GeometricCamera\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.893355] (orb_slam3_ros2) StderrLine: {'line': b'   47 | ers) : mvLappingArea(2, 0), precision(1e-6), GeometricCamera(_vParameters), tvr(nullptr\x1b[01;35m\x1b[K)\x1b[m\x1b[K {\n'}
+[4.893394] (orb_slam3_ros2) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.893433] (orb_slam3_ros2) StderrLine: {'line': b'\n'}
+[4.893472] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[4.893511] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[4.893549] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.893587] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.893626] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.893665] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.893703] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.893741] (orb_slam3_ros2) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : mvLappingArea(2, 0), precision(1e-6), GeometricCamera(_vParameters), tvr(nullptr) {\n'}
+[4.893779] (orb_slam3_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.893818] (orb_slam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[4.893855] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[4.893893] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.893929] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.893966] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/../../../../include/System.h:31\x1b[m\x1b[K,\n'}
+[4.894003] (orb_slam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/src/ros2_mono.cpp:12\x1b[m\x1b[K:\n'}
+[4.894041] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.894080] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.894119] (orb_slam3_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[4.894157] (orb_slam3_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.894197] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.894238] (orb_slam3_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[4.894276] (orb_slam3_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.894315] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.894353] (orb_slam3_ros2) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[4.894398] (orb_slam3_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.894437] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.894475] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.894513] (orb_slam3_ros2) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[4.894550] (orb_slam3_ros2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.894588] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.894626] (orb_slam3_ros2) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[4.894664] (orb_slam3_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.894701] (orb_slam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[4.894740] (orb_slam3_ros2) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[4.894779] (orb_slam3_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.911484] (-) TimerEvent: {}
+[5.011755] (-) TimerEvent: {}
+[5.112146] (-) TimerEvent: {}
+[5.212422] (-) TimerEvent: {}
+[5.312690] (-) TimerEvent: {}
+[5.412938] (-) TimerEvent: {}
+[5.513222] (-) TimerEvent: {}
+[5.613504] (-) TimerEvent: {}
+[5.713843] (-) TimerEvent: {}
+[5.814185] (-) TimerEvent: {}
+[5.914488] (-) TimerEvent: {}
+[6.014748] (-) TimerEvent: {}
+[6.114998] (-) TimerEvent: {}
+[6.215341] (-) TimerEvent: {}
+[6.315679] (-) TimerEvent: {}
+[6.416028] (-) TimerEvent: {}
+[6.516361] (-) TimerEvent: {}
+[6.616693] (-) TimerEvent: {}
+[6.717002] (-) TimerEvent: {}
+[6.817285] (-) TimerEvent: {}
+[6.917560] (-) TimerEvent: {}
+[7.017832] (-) TimerEvent: {}
+[7.118194] (-) TimerEvent: {}
+[7.218607] (-) TimerEvent: {}
+[7.318858] (-) TimerEvent: {}
+[7.419111] (-) TimerEvent: {}
+[7.519384] (-) TimerEvent: {}
+[7.619723] (-) TimerEvent: {}
+[7.720056] (-) TimerEvent: {}
+[7.820390] (-) TimerEvent: {}
+[7.920660] (-) TimerEvent: {}
+[8.020935] (-) TimerEvent: {}
+[8.121279] (-) TimerEvent: {}
+[8.221642] (-) TimerEvent: {}
+[8.321920] (-) TimerEvent: {}
+[8.422282] (-) TimerEvent: {}
+[8.522491] (-) TimerEvent: {}
+[8.622736] (-) TimerEvent: {}
+[8.722980] (-) TimerEvent: {}
+[8.823317] (-) TimerEvent: {}
+[8.923653] (-) TimerEvent: {}
+[9.023942] (-) TimerEvent: {}
+[9.124272] (-) TimerEvent: {}
+[9.224607] (-) TimerEvent: {}
+[9.324870] (-) TimerEvent: {}
+[9.425197] (-) TimerEvent: {}
+[9.525527] (-) TimerEvent: {}
+[9.625884] (-) TimerEvent: {}
+[9.726212] (-) TimerEvent: {}
+[9.791281] (orb_slam3_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable MonoNode\x1b[0m\n'}
+[9.826305] (-) TimerEvent: {}
+[9.926574] (-) TimerEvent: {}
+[10.026821] (-) TimerEvent: {}
+[10.127158] (-) TimerEvent: {}
+[10.227535] (-) TimerEvent: {}
+[10.230759] (orb_slam3_ros2) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.4\n'}
+[10.245086] (orb_slam3_ros2) StdoutLine: {'line': b'[100%] Built target MonoNode\n'}
+[10.252823] (orb_slam3_ros2) CommandEnded: {'returncode': 0}
+[10.269359] (orb_slam3_ros2) JobProgress: {'identifier': 'orb_slam3_ros2', 'progress': 'install'}
+[10.277085] (orb_slam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2'], 'cwd': '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'b1fc5be248b7'), ('GIT_ASKPASS', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-67cbc8ab-3f2f-4163-80ee-78ee35cf7ea2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('ROS_IP', '127.0.0.1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/install:/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b61aa525-01dc-48be-9139-f37c1693f720.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/root/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b61aa525-01dc-48be-9139-f37c1693f720.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-8fb4ee5727.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b61aa525-01dc-48be-9139-f37c1693f720.sock'), ('AMENT_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2:/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ORB_SLAM3/Examples/ros2_ws/build/orb_slam3_ros2'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2:/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2:/opt/ros/foxy')]), 'shell': False}
+[10.283376] (orb_slam3_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.283499] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/lib/orb_slam3_ros2/MonoNode\n'}
+[10.283862] (orb_slam3_ros2) StdoutLine: {'line': b'-- Set runtime path of "/ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/lib/orb_slam3_ros2/MonoNode" to "/ORB_SLAM3/lib"\n'}
+[10.283931] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/lib/orb_slam3_ros2/scripts\n'}
+[10.284039] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/launch\n'}
+[10.284106] (orb_slam3_ros2) StdoutLine: {'line': b'-- Up-to-date: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/lib/orb_slam3_ros2/scripts\n'}
+[10.284168] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/ament_index/resource_index/package_run_dependencies/orb_slam3_ros2\n'}
+[10.284285] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/ament_index/resource_index/parent_prefix_path/orb_slam3_ros2\n'}
+[10.284396] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.sh\n'}
+[10.284482] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.dsv\n'}
+[10.284571] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.sh\n'}
+[10.284655] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.dsv\n'}
+[10.284737] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.bash\n'}
+[10.284817] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.sh\n'}
+[10.284902] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.zsh\n'}
+[10.284976] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.dsv\n'}
+[10.285054] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv\n'}
+[10.285161] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/ament_index/resource_index/packages/orb_slam3_ros2\n'}
+[10.285271] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config.cmake\n'}
+[10.285338] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config-version.cmake\n'}
+[10.285418] (orb_slam3_ros2) StdoutLine: {'line': b'-- Installing: /ORB_SLAM3/Examples/ros2_ws/install/orb_slam3_ros2/share/orb_slam3_ros2/package.xml\n'}
+[10.286510] (orb_slam3_ros2) CommandEnded: {'returncode': 0}
+[10.313827] (orb_slam3_ros2) JobEnded: {'identifier': 'orb_slam3_ros2', 'rc': 0}
+[10.314815] (-) EventReactorShutdown: {}

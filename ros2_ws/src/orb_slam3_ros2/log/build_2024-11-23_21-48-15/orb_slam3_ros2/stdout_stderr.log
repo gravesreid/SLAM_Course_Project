@@ -1,0 +1,24 @@
+[100%] Built target MonoNode
+-- Install configuration: ""
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/lib/orb_slam3_ros2/MonoNode
+-- Set runtime path of "/ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/lib/orb_slam3_ros2/MonoNode" to "/ORB_SLAM3/lib"
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/lib/orb_slam3_ros2/scripts
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/lib/orb_slam3_ros2/scripts/pose_visualizer.py
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/launch
+-- Up-to-date: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/lib/orb_slam3_ros2/scripts
+-- Up-to-date: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/lib/orb_slam3_ros2/scripts/pose_visualizer.py
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/ament_index/resource_index/package_run_dependencies/orb_slam3_ros2
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/ament_index/resource_index/parent_prefix_path/orb_slam3_ros2
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.sh
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/ament_prefix_path.dsv
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.sh
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/environment/path.dsv
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.bash
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.sh
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.zsh
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/local_setup.dsv
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/package.dsv
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/ament_index/resource_index/packages/orb_slam3_ros2
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config.cmake
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/cmake/orb_slam3_ros2Config-version.cmake
+-- Installing: /ORB_SLAM3/Examples/ros2_ws/src/orb_slam3_ros2/install/orb_slam3_ros2/share/orb_slam3_ros2/package.xml
