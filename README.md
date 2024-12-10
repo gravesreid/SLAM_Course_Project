@@ -110,21 +110,3 @@ docker push [username]/[repository_name]:[tag]
 ```
 
 
-
-# TODO
-- [ ] Noetic and Foxy Branch and Ubuntu 20.04- Kanlong (Noetic) and Adrian (Foxy)
-    - [ ] Simple test using camera only
-    - [ ] Physical testing on robots 
-- [ ] Humble Branch-  Benny
-    - [ ] Simple test using camera only
-    - [ ] Physical testing on robots 
-- [ ] Jazzy Branch- Reid
-    - [ ] Simple test using camera only
-    - [ ] Physical testing on robots
-
-# Milestones
-- [x] Project Proposal (25 October 2024)
-- [ ] Project Midterm (15 November 2024)
-- [ ] Presentation Slides (02 December 2024)
-- [ ] Final Report (11 December 2024)
-

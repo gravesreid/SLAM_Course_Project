@@ -2,12 +2,13 @@ import cv2
 import os
 
 # Define the directory where you want to save the photos
-save_directory = "/home/reid/Projects/bittle/overhead_block_photos/10DEC2024"
+save_directory = "/home/reid/Projects/bittle/camera_calibration/23NOV2024"
 if not os.path.exists(save_directory):
     os.makedirs(save_directory)
 
-# Initialize the webcam (0 is usually the default camera)
-cap = cv2.VideoCapture(0)
+stream_url = "http://192.168.1.201:8000/stream.mjpg"
+# Initialize the webcam
+cap = cv2.VideoCapture(stream_url, cv2.CAP_FFMPEG)
 
 cv2.namedWindow("Photo Capture")
 

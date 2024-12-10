@@ -85,7 +85,7 @@ def detect_apriltags_from_video():
 # Set up the matplotlib plot
 fig, ax = plt.subplots()
 ax.set_xlim(-1, 1)
-ax.set_ylim(-1, 1)
+ax.set_ylim(-1, 1.5)
 line, = ax.plot([], [], 'ro-', label="Tag Path")
 ax.legend()
 ax.set_title("AprilTag Path")
